@@ -1,0 +1,20 @@
+{
+  "name": "comeongram",
+  "version": "1.0.0",
+  "description": "Instagram clone with Express + Prisma + React and React Native",
+  "main": "index.js",
+  "repository": "https://github.com/seokany/comeongram.git",
+  "author": "(seokany <seokhwan.h.yi@gmail.com>)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-node": "^0.0.1-security",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
