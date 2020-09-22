@@ -7,11 +7,15 @@
   "author": "(seokany <seokhwan.h.yi@gmail.com>)",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
     "babel-node": "^0.0.1-security",
+    "dotenv": "^8.2.0",
     "graphql-yoga": "^1.18.3"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "babel-cli": "^7.0.0",
     "nodemon": "^2.0.4"
   },
   "scripts": {

@@ -1,28 +1,17 @@
 # comeongram
 Instagram clone with Express + Prisma + React and React Native
 
-## v0.01 *Create a mini server*
-- [x] homebrew https://brew.sh/
-- [x] node.js install
-- [x] brew install yarn 
-- [x] create git repository
-- [x] yarn init
-- [x] yarn add nodemon -D && babel-cli-D
-  - add "scripts"
-    - {"dev": "nodemon --exec babel-node src/server.js
-  } 
-  - excute on source : src > server.js
-    - console.log("Hello") 
-- [x] nodemon.json
-  - watch the extension 
-    - { "ext": "js graphql" }
-- yarn dev
+## v0.02 *Creating GraphQl Server*
+- [x] yarn add dotenv
+  - src>.env 
+- [x] .babelrc
+- [x] yarn add @babel/{node,preset-env}
+- [x] yarn add @babel/core
+
   
 ### Notice
-- nodemon은 실시간으로 실행
-- babel-cli는 서로 다른 웹브라우저의 상태를 예전 버전으로 바꿔서 보여준다. 
+- dotenv모듈은 모든 .env 파일을 읽음.
+- .babelrc 파일을 root 폴도에 생성한다. plugins와 presets속성이 중요하다. 이는 Babel커맨드를 실행할 때마다 매번 옵션을 붙여서 설정을 해야 한다면 매우 번거롭다. 그래서 babel.config.js, .babelrc와 같은 설정파일을 통해 Babel을 설정한다. 그럼 커맨드 뒤에 옵션을 붙이지 않고 실행해도 env>preset이 적용된다.
 
 ### Refernce
-- https://babeljs.io/docs/en/babel-cli
-- https://babeljs.io/docs/en/babel-node
-- https://nodemon.io/
+
